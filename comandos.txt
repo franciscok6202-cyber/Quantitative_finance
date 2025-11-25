@@ -19,8 +19,14 @@ source .venv/bin/activate
 
 #github
 
-#esta de la brach
+#estado de la brach
 git status
 
 #guardar cambios
 git add
+
+#comentar cambios
+git commit -m "rama actualizada"
+
+#actualizar brach
+git push origin main
