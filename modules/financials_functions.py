@@ -3,7 +3,7 @@ import numpy as np
 import scipy.stats as stats 
 from .backend import market_prices
 
-def portfolio_volatility(df:pd.dataframe,vector_w:np.array) -> float:
+def portfolio_volatility(df:pd.DataFrame,vector_w:np.array) -> float:
 
     """
     Calculo de la volatilidad de un portafolio
@@ -29,7 +29,7 @@ def portfolio_returns(
         tickers: list,
         start: str,
         end: str
-        ) -> pd.dataframe:
+        ) -> pd.DataFrame:
         """
         descarga desde la base de datos los precios de los intrumentos indicados en el rango de fechas
         ticker(list):lista de intrumentos nemos que componen el portfolio 

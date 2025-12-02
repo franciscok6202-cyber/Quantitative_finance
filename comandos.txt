@@ -15,6 +15,7 @@ pip3 install -r requirements.txt
 #actviar ambiente virtual
 
 source .venv/bin/activate
+#linux
 
 
 #github
