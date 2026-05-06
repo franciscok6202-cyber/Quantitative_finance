@@ -75,8 +75,4 @@ df = risk(
     )
 st.dataframe(df)
 
-st.subheader("Comparativa de Value at Risk (VaR)")
 
-df_grafico = df.set_index("PORTAFOLIO")
-
-st.bar_chart(df_grafico)
