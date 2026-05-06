@@ -4,7 +4,7 @@ import pandas as pd
 from modules.financials_functions import portfolio_volatility, portfolio_returns, VaR
 from modules.backend import tickers_by_issuer
 
-st.title("Programación en finanzas - Evaluación 2")
+st.title("Dashboard de Análisis de Portafolios")
 def complemento_confianza(confianza_str: str) -> float:
     """
     recibe un nivel de confianza como string y retorna 1- nivel de confianza como float
@@ -57,7 +57,7 @@ def risk(start:str, end:str,confidence:float) -> pd.DataFrame:
 
         
 #Panel lateral
-st.sidebar.title("Parametros")
+st.sidebar.title("Parámetros de simulación")
 st.sidebar.date_input("Fecha Inicio","2023-01-01",key="start")
 st.sidebar.date_input("Fecha Fin","2025-09-01",key="end")
 
